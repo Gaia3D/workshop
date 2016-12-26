@@ -1,6 +1,5 @@
-# Gaia3D 오픈소스 GIS 교육용 자료 배포 사이트
-* LH 해외도시개발 QGIS - 2016.12.27
-  * PPT: [01 QGIS 기초] (https://github.com/Gaia3D/workshop/blob/master/20161227_LH_%ED%95%B4%EC%99%B8%EB%8F%84%EC%8B%9C%EA%B0%9C%EB%B0%9C/01_QGIS%20%EA%B8%B0%EC%B4%88_20161227.pptx?raw=true)
-  * PPT: [02 QGIS 기초] <https://github.com/Gaia3D/workshop/blob/master/20161227_LH_%ED%95%B4%EC%99%B8%EB%8F%84%EC%8B%9C%EA%B0%9C%EB%B0%9C/01_QGIS%20%EA%B8%B0%EC%B4%88_20161227.pptx?raw=true>
-  * PPT: [02_QGIS 업무활용(후보지)] (https://github.com/Gaia3D/workshop/blob/master/20161227_LH_%ED%95%B4%EC%99%B8%EB%8F%84%EC%8B%9C%EA%B0%9C%EB%B0%9C/01_QGIS%20%EA%B8%B0%EC%B4%88_20161227.pptx?raw=true)
+### LH 해외도시개발 QGIS 교육 - 2016.12.27
+  * Setup Program: [QGIS 2.14 (32bit)] (https://github.com/Gaia3D/workshop/raw/master/20161227_LH_%ED%95%B4%EC%99%B8%EB%8F%84%EC%8B%9C%EA%B0%9C%EB%B0%9C/QGIS-OSGeo4W-2.14.10-1-Setup-x86.exe)
+  * PPT: [01 QGIS 기초] (https://github.com/Gaia3D/workshop/raw/master/20161227_LH_%ED%95%B4%EC%99%B8%EB%8F%84%EC%8B%9C%EA%B0%9C%EB%B0%9C/01_QGIS%20%EA%B8%B0%EC%B4%88_20161227.pptx)
+  * PPT: [02_QGIS 업무활용(후보지)] (https://github.com/Gaia3D/workshop/raw/master/20161227_LH_%ED%95%B4%EC%99%B8%EB%8F%84%EC%8B%9C%EA%B0%9C%EB%B0%9C/02_QGIS%20%EC%97%85%EB%AC%B4%ED%99%9C%EC%9A%A9(%ED%9B%84%EB%B3%B4%EC%A7%80).pptx)
   * Data: [Data.zip]  (https://github.com/Gaia3D/workshop/raw/master/20161227_LH_%ED%95%B4%EC%99%B8%EB%8F%84%EC%8B%9C%EA%B0%9C%EB%B0%9C/Data.zip)

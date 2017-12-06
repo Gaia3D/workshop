@@ -1,8 +1,9 @@
 ## 서울연구원 공간 SQL을 이용한 공간자료분석 기초실습 - 2017.12.08
-* Setup Program: <a href="http://qgis.org/downloads/QGIS-OSGeo4W-2.14.12-1-Setup-x86.exe">QGIS 2.14.12-1 (32bit)</a>
-* PPT: <a href="https://github.com/Gaia3D/workshop/raw/master/20170307_%EC%84%9C%EC%9A%B8%EC%8B%9C_QGIS%EC%A7%81%EB%AC%B4%EA%B5%90%EC%9C%A1/01_QGIS%20%EA%B8%B0%EC%B4%88_20170307.pptx">01 QGIS 기초</a>
-* PPT: <a href="https://github.com/Gaia3D/workshop/raw/master/20170307_%EC%84%9C%EC%9A%B8%EC%8B%9C_QGIS%EC%A7%81%EB%AC%B4%EA%B5%90%EC%9C%A1/02_QGIS%20%EB%B6%84%EC%84%9D_20170308.pptx">02 QGIS 분석</a>
-* Data: <a href="https://github.com/Gaia3D/workshop/raw/master/20170307_%EC%84%9C%EC%9A%B8%EC%8B%9C_QGIS%EC%A7%81%EB%AC%B4%EA%B5%90%EC%9C%A1/Data.zip">Data.zip</a>
+* PostgreSQL: <a href="https://www.enterprisedb.com/thank-you-downloading-postgresq">PostgreSQL 9.5 (32bit)</a>
+* PostGIS: <a href="http://qgis.org/downloads/QGIS-OSGeo4W-2.14.12-1-Setup-x86.exe">PostGIS 2.3 (32bit)</a>
+* QGIS: <a href="http://qgis.org/downloads/QGIS-OSGeo4W-2.18.14-1-Setup-x86.exe">QGIS 2.18.14-1 (32bit)</a>
+* PPT: <a href="https://github.com/Gaia3D/workshop/raw/master/20170307_%EC%84%9C%EC%9A%B8%EC%8B%9C_QGIS%EC%A7%81%EB%AC%B4%EA%B5%90%EC%9C%A1/01_QGIS%20%EA%B8%B0%EC%B4%88_20170307.pptx">공간SQL을 이용한 공간자료분석 기초실습</a>
+* Data: <a href="https://github.com/Gaia3D/workshop/raw/master/20170307_%EC%84%9C%EC%9A%B8%EC%8B%9C_QGIS%EC%A7%81%EB%AC%B4%EA%B5%90%EC%9C%A1/data.zip">data.zip</a>
 
 
 ## 서울시 직무교육 QGIS 기초 및 분석 - 2017.03.07~03.08

@@ -1,8 +1,8 @@
 ## 서울연구원 공간 SQL을 이용한 공간자료분석 기초실습 - 2017.12.08
-* PostgreSQL: <a href="https://www.enterprisedb.com/thank-you-downloading-postgresq">PostgreSQL 9.5 (32bit)</a>
+* PostgreSQL: <a href="https://www.enterprisedb.com/downloads/postgres-postgresql-downloads#windows">PostgreSQL 9.5 (32bit)</a>
 * PostGIS: <a href="https://github.com/Gaia3D/workshop/raw/master/20171208_%EC%84%9C%EC%9C%A8%EC%97%B0_%EA%B3%B5%EA%B0%84SQL/setup/postgis_2_3_pg95.exe">PostGIS 2.3 (32bit)</a>
 * QGIS: <a href="http://qgis.org/downloads/QGIS-OSGeo4W-2.18.14-1-Setup-x86.exe">QGIS 2.18.14-1 (32bit)</a>
-* PPT: <a href="https://github.com/Gaia3D/workshop/blob/master/20171208_%EC%84%9C%EC%9C%A8%EC%97%B0_%EA%B3%B5%EA%B0%84SQL/%EA%B3%B5%EA%B0%84SQL%EC%9D%84%20%EC%9D%B4%EC%9A%A9%ED%95%9C%20%EA%B3%B5%EA%B0%84%EC%9E%90%EB%A3%8C%EB%B6%84%EC%84%9D%20%EA%B8%B0%EC%B4%88%EC%8B%A4%EC%8A%B5_20171208.pptx">공간SQL을 이용한 공간자료분석 기초실습</a>
+* PPT: <a href="https://github.com/Gaia3D/workshop/raw/master/20171208_%EC%84%9C%EC%9C%A8%EC%97%B0_%EA%B3%B5%EA%B0%84SQL/%EA%B3%B5%EA%B0%84SQL%EC%9D%84%20%EC%9D%B4%EC%9A%A9%ED%95%9C%20%EA%B3%B5%EA%B0%84%EC%9E%90%EB%A3%8C%EB%B6%84%EC%84%9D%20%EA%B8%B0%EC%B4%88%EC%8B%A4%EC%8A%B5_20171208.pptx">공간SQL을 이용한 공간자료분석 기초실습</a>
 * Data: <a href="https://github.com/Gaia3D/workshop/raw/master/20171208_%EC%84%9C%EC%9C%A8%EC%97%B0_%EA%B3%B5%EA%B0%84SQL/data.zip">data.zip</a>
 
 

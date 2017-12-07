@@ -7,7 +7,7 @@ QgsMapLayerRegistry.instance().removeAllMapLayers()
 
 # DB 접속정보
 uri = QgsDataSourceURI()
-uri.setConnection("localhost", "5432", "foss4g", "postgres", "postgres")
+uri.setConnection("localhost", "5432", "seoul", "postgres", "postgres")
 
 start = timeit.default_timer()
 pre = start

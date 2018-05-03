@@ -8,9 +8,19 @@
     <script src="https://openlayers.org/en/v4.6.5/build/ol.js"></script>
   </head>
   <body>
+    <div id="control">
+        <!-- TODO: 아래 콘트롤의 onclick 함수를 참고하세요. -->
+        <input id="checkNormal" type="checkbox" checked onclick="chkNormal =! chkNormal; vectorLayer.getSource().changed()"><lable for="checkNormal"> Normal</lable>
+        <input id="checkUpper" type="checkbox" checked onclick="chkUpper =! chkUpper; vectorLayer.getSource().changed()"><lable for="checkUpper"> Upper</lable>
+        <input id="checkLower" type="checkbox" checked onclick="chkLower =! chkLower; vectorLayer.getSource().changed()"><lable for="checkLower"> Lower</lable>
+    </div>
     <div id="map" class="map"></div>
     <div id="info">&nbsp;</div>
     <script>
+        var chkNormal = true;
+        var chkUpper = true;
+        var chkLower = true;
+
       var style = new ol.style.Style({
         fill: new ol.style.Fill({
           color: 'rgba(255, 255, 255, 0.6)'
@@ -37,7 +47,13 @@
           format: new ol.format.GeoJSON()
         }),
         style: function(feature) {
-          style.getText().setText(feature.get('name'));
+          // TODO: 이 부분을 여러 property 에서 가져오는 것으로 바꾸시면 됩니다.
+          var text = ""
+          if (chkNormal) text += feature.get('name')+"\n";
+          if (chkUpper) text += feature.get('name').toUpperCase()+"\n";
+          if (chkLower) text += feature.get('name').toLowerCase()+"\n";
+          style.getText().setText(text);
+
           return style;
         }
       });
@@ -51,33 +67,9 @@
         })
       });
 
-      var highlightStyle = new ol.style.Style({
-        stroke: new ol.style.Stroke({
-          color: '#f00',
-          width: 1
-        }),
-        fill: new ol.style.Fill({
-          color: 'rgba(255,0,0,0.1)'
-        }),
-        text: new ol.style.Text({
-          font: '12px Calibri,sans-serif',
-          fill: new ol.style.Fill({
-            color: '#000'
-          }),
-          stroke: new ol.style.Stroke({
-            color: '#f00',
-            width: 3
-          })
-        })
-      });
-
       var featureOverlay = new ol.layer.Vector({
         source: new ol.source.Vector(),
-        map: map,
-        style: function(feature) {
-          highlightStyle.getText().setText(feature.get('name'));
-          return highlightStyle;
-        }
+        map: map
       });
 
       var highlight;
